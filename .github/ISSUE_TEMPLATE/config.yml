@@ -1,0 +1,22 @@
+# .github/ISSUE_TEMPLATE/config.yml
+default:
+  - question.md  # This sets the default template to be the "Question" template
+labels:
+  - "question"
+  - "bug"
+  - "enhancement"
+  - "documentation"
+  - "task"
+templates:
+  bug_report:
+    name: "Bug Report"
+    description: "Report a bug or issue you encountered."
+    filename: "bug_report.md"
+  feature_request:
+    name: "Feature Request"
+    description: "Request a new feature or enhancement."
+    filename: "feature_request.md"
+  question:
+    name: "Question"
+    description: "Ask a question or clarification related to the project."
+    filename: "question.md"
