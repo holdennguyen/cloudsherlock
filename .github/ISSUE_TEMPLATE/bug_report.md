@@ -1,18 +1,40 @@
-### Describe the bug
-A clear and concise description of what the bug is.
+---
+name: 🐞 Bug
+about: File a bug/issue
+title: '[BUG] <title>'
+labels: Bug, Needs Triage
+assignees: ''
+
+---
+
+<!--
+Note: Please search to see if an issue already exists for the bug you encountered.
+-->
+
+### Current Behavior:
+<!-- A concise description of what you're experiencing. -->
+
+### Expected Behavior:
+<!-- A concise description of what you expected to happen. -->
 
 ### Steps to Reproduce
-1. Step one
-2. Step two
-3. Step three
+<!--
+Example: steps to reproduce the behavior:
+1. In this environment...
+1. With this config...
+1. Run '...'
+1. See error...
+-->
 
-### Expected behavior
-What should have happened?
+### Environment:
+<!--
+Example:
+- OS: Ubuntu 20.04
+- Node: 13.14.0
+- npm: 7.6.3
+-->
 
-### Environment
-- OS: [e.g., Ubuntu 20.04]
-- Rust version: [e.g., 1.56.0]
-- Dependencies: [List of dependencies]
-
-### Additional context
-Any other information about the problem.
+### Anything else:
+<!--
+Links? References? Anything that will give us more context about the issue that you are encountering!
+-->

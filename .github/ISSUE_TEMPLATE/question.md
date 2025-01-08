@@ -1,13 +1,20 @@
-<!-- .github/ISSUE_TEMPLATE/question.md -->
+---
+name: ❓ Question
+about: Ask a question or clarification related to the project
+title: '[QUESTION] <short-question>'
+labels: Question, Needs Triage
+assignees: ''
+
+---
 
 ### Question
-Please provide a detailed description of your question or clarification.
+<!-- A clear and concise description of the question or clarification you're seeking. -->
 
 ### Context
-Provide any background information relevant to your question. This helps us better understand your needs.
+<!-- Any relevant context that will help others better understand your question. -->
 
-### Expected Behavior
-Describe what you expect the answer or solution to be.
+### Expected Answer/Behavior
+<!-- What kind of answer or clarification are you looking for? -->
 
 ### Additional Context
-Any other details or links that could help answer your question.
+<!-- Any additional information, such as logs, environment, or references, that could help answer the question. -->
