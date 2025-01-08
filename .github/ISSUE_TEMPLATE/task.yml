@@ -1,6 +1,6 @@
 name: 📝 Task
 description: A task to be completed, such as implementation or documentation
-title: "[QUESTION]|[Provider]|[Service/Component] - [Specific Description]"
+title: "[TASK]|[Provider]|[Service/Component] - [Specific Description]"
 labels: ["documentation"]
 projects: ["aws-sherlock", "azure-sherlock", "gpc-sherlock"]
 assignees:
