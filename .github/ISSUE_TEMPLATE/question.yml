@@ -1,0 +1,59 @@
+name: ❓ Question
+description: Ask a question or request clarification
+title: "[QUESTION]|[Provider]|[Service/Component] - [Specific Description]"
+labels: ["question", "triage"]
+projects: ["aws-sherlock", "azure-sherlock", "gpc-sherlock"]
+assignees:
+  - holden.nguyen
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to ask a question!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Please describe the question or clarification you're seeking.
+      placeholder: Describe your question here
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Any relevant context or information that will help us better understand your question.
+      placeholder: Provide any background information.
+    validations:
+      required: false
+  - type: dropdown
+    id: os
+    attributes:
+      label: What OS is your question related to?
+      multiple: true
+      options:
+        - Linux
+        - MacOS
+        - Windows
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or Output (if applicable)
+      description: Paste any relevant logs or error outputs here. This will be formatted automatically into code.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

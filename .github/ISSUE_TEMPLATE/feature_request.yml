@@ -1,0 +1,44 @@
+name: 🚀 Feature Request
+description: Suggest a new feature or improvement
+title: "[FEATURE]|[Provider]|[Service/Component] - [Specific Description]"
+labels: ["feature-request"]
+projects: ["aws-sherlock", "azure-sherlock", "gpc-sherlock"]
+assignees:
+  - holden.nguyen
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to request a new feature!
+  - type: textarea
+    id: title
+    attributes:
+      label: Feature Title
+      description: A clear and concise title for your feature request.
+      placeholder: "Cloud Sherlock Integration with Service X"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: Describe your feature request in detail. Explain why this feature would be useful and how it would improve Cloud Sherlock.
+      placeholder: "Describe the feature in detail..."
+    validations:
+      required: true
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: Use Cases
+      description: Describe some specific use cases for this feature. How would it be used in a real-world scenario?
+      placeholder: "How would this feature be used?"
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

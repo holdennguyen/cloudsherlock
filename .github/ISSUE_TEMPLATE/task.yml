@@ -1,0 +1,61 @@
+name: 📝 Task
+description: A task to be completed, such as implementation or documentation
+title: "[QUESTION]|[Provider]|[Service/Component] - [Specific Description]"
+labels: ["task", "triage"]
+projects: ["aws-sherlock", "azure-sherlock", "gpc-sherlock"]
+assignees:
+  - holden.nguyen
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this task!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: task-description
+    attributes:
+      label: Task Description
+      description: Please describe the task you need to complete.
+      placeholder: Describe the task in detail
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: What are the conditions that must be met for this task to be considered complete?
+      placeholder: List the acceptance criteria
+    validations:
+      required: true
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: Related Issues
+      description: Link to any related issues or pull requests.
+      placeholder: e.g., #1234, #5678
+    validations:
+      required: false
+  - type: dropdown
+    id: cloud-provider
+    attributes:
+      label: Which OS is this task related to?
+      multiple: true
+      options:
+        - Linux
+        - MacOS
+        - Windows
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this task, you agree to follow our [Code of Conduct](https://example.com).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
