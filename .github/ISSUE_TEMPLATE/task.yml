@@ -1,7 +1,7 @@
 name: 📝 Task
 description: A task to be completed, such as implementation or documentation
 title: "[QUESTION]|[Provider]|[Service/Component] - [Specific Description]"
-labels: ["task", "triage"]
+labels: ["documentation"]
 projects: ["aws-sherlock", "azure-sherlock", "gpc-sherlock"]
 assignees:
   - holden.nguyen

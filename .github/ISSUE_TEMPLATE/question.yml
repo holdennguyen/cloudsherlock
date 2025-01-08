@@ -1,7 +1,7 @@
 name: ❓ Question
 description: Ask a question or request clarification
 title: "[QUESTION]|[Provider]|[Service/Component] - [Specific Description]"
-labels: ["question", "triage"]
+labels: ["question"]
 projects: ["aws-sherlock", "azure-sherlock", "gpc-sherlock"]
 assignees:
   - holden.nguyen

@@ -1,7 +1,7 @@
 name: 🐞 Bug
 description: File a bug/issue
 title: "[BUG]|[Provider]|[Service/Component] - [Specific Description]"
-labels: ["bug", "triage"]
+labels: ["bug"]
 projects: ["aws-sherlock", "azure-sherlock", "gpc-sherlock"]
 assignees:
   - holden.nguyen
