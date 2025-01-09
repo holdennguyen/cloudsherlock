@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "01-cli-tool",
+    "02-agent",
+    "03-api",
+    "04-frontend",
+    "05-backend",
+]
