@@ -1,10 +1,7 @@
 name: ❓ Question
 description: Ask a question or request clarification
-title: "[QUESTION]|[Provider]|[Service/Component] - [Specific Description]"
+title: "[Provider]|[Service/Component] - [Specific Description]"
 labels: ["question"]
-projects: ["aws-sherlock", "azure-sherlock", "gpc-sherlock"]
-assignees:
-  - holden.nguyen
 body:
   - type: markdown
     attributes:

@@ -1,10 +1,7 @@
 name: 🚀 Feature Request
 description: Suggest a new feature or improvement
-title: "[FEATURE]|[Provider]|[Service/Component] - [Specific Description]"
+title: "[Provider]|[Service/Component] - [Specific Description]"
 labels: ["enhancement"]
-projects: ["aws-sherlock", "azure-sherlock", "gpc-sherlock"]
-assignees:
-  - holden.nguyen
 body:
   - type: markdown
     attributes:
