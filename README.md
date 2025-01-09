@@ -42,10 +42,10 @@ CloudSherlock is in its early stages of development. Expect rapid iterations and
 ---
 ## General Naming Format For GitHub Issues
 
-\[Feature/Task/Bug\] \[Provider\] [Service/Component] - [Specific Description]
+\[Provider\] [Service/Component] - [Specific Description]
 
 Key Components:
-1.	Action: [Feature], [Task], or [Bug] - Defines the type of work: new feature, general task, or bug fix.
+1.	Action: [Bug], [Feature Request], [Question], or [Task] - Pick the type of Issue: new feature, general task, or bug fix.
 2.	Provider: [AWS], [Azure], [GCP], or [General] - Specifies the cloud provider or a generic component.
 3.	Service/Component: Specific service (e.g., EC2, S3, VM, Compute Engine) or project component (e.g., CLI, UI).
 4.	Specific Description: A brief yet descriptive title about what the issue entails.
