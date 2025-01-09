@@ -1,4 +1,6 @@
 [workspace]
+resolver = "2"
+
 members = [
     "01-cli-tool",
     "02-agent",
